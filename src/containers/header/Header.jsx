@@ -1,8 +1,5 @@
-import React, { useState } from 'react';
 import './header.css';
 import profile from '../../assets/profile.jpg';
-import FileSaver from 'file-saver';
-import  { Bio } from '../../components';
 
 const Header = () => {
 
