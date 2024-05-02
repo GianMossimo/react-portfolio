@@ -12,7 +12,7 @@ const Projects = ({ img, name, sub, desc, gitHubLink, siteLink}) => {
           <div className='item'>
             <div className='left'>
               <div className='img'>
-                <img src={img} />
+                <img src={img} alt='Project Preview' />
               </div>
             </div>
             <div className='right'>
@@ -20,8 +20,8 @@ const Projects = ({ img, name, sub, desc, gitHubLink, siteLink}) => {
               <h3 className='project-subtitle'>{sub}</h3>
               <p className='project-desc'>{desc}</p>
               <div className='buttons'>
-                <a href={gitHubLink} target='_blank' className='primary-btn'><FontAwesomeIcon className='fab' icon={faGithub} /></a>
-                <a href={siteLink} target='_blank' className='secondary-btn'>Site Preview <FontAwesomeIcon className='fab' icon={faUpRightFromSquare} /></a>
+                <a href={gitHubLink} target='_blank' rel="noreferrer" className='primary-btn'><FontAwesomeIcon className='fab' icon={faGithub} /></a>
+                <a href={siteLink} target='_blank' rel="noreferrer" className='secondary-btn'>Site Preview <FontAwesomeIcon className='fab' icon={faUpRightFromSquare} /></a>
               </div>
             </div>
           </div>

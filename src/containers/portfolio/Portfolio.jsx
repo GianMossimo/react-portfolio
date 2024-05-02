@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './portfolio.css';
 import { Projects } from '../../components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,10 +11,10 @@ const Portfolio = () => {
       <h1>My Language Stack</h1>
 
       <div className='port__portfolio-container_icons'>
-        <a><FontAwesomeIcon className='fab' icon={faHtml5} /></a>
-        <a><FontAwesomeIcon className='fab' icon={faCss3Alt} /></a>
-        <a><FontAwesomeIcon className='fab' icon={faJs} /></a>
-        <a><FontAwesomeIcon className='fab' icon={faReact} /></a>
+        <a href='#'><FontAwesomeIcon className='fab' icon={faHtml5} /></a>
+        <a href='#'><FontAwesomeIcon className='fab' icon={faCss3Alt} /></a>
+        <a href='#'><FontAwesomeIcon className='fab' icon={faJs} /></a>
+        <a href='#'><FontAwesomeIcon className='fab' icon={faReact} /></a>
       </div>
       <br />
       <div className='port__portfolio-container_projects'>

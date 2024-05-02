@@ -17,8 +17,8 @@ const Footer = () => {
         </form>
       </div>
       <div className='port__socials-icons'>
-        <a href='https://www.linkedin.com/in/gian-saccomanno/' target='_blank'><FontAwesomeIcon className='fab' icon={faLinkedin}/></a>
-        <a href='https://github.com/GianMossimo'  target='_blank'><FontAwesomeIcon className='fab' icon={faGithub}/></a>
+        <a href='https://www.linkedin.com/in/gian-saccomanno/' target='_blank' rel="noreferrer" ><FontAwesomeIcon className='fab' icon={faLinkedin}/></a>
+        <a href='https://github.com/GianMossimo'  target='_blank' rel="noreferrer" ><FontAwesomeIcon className='fab' icon={faGithub}/></a>
       </div>
     </div>
   )
