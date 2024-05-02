@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Reddit+Mono:wght@200..900&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-family: 'Reddit Mono', sans-serif;
+  --font-two: 'Oswald', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #203820 1.84%, #496349 102.67%);
+  --gradient-bg: linear-gradient(-45deg, #9381FF, #FF69B4);
+  
+  --color-bg: #F5F5F5;
+  --color-footer : #000;
+  --color-about: #496349;
+  --color-text: #000;
+  --color-subtext: #86B886;
 }

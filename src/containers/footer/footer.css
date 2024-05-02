@@ -1,0 +1,130 @@
+.port__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.port__contact h1 {
+    font-family: var(--font-two);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.port__contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.port__contact-form input {
+    font-family: var(--font-two);
+    letter-spacing: 0.08rem;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    text-align: center;
+    width: 80%;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.port__contact-form textarea {
+    font-family: var(--font-two);
+    letter-spacing: 0.08rem;
+    padding: 0.2rem;
+    margin: 0.3rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.port__contact-form button {
+    font-family: var(--font-two);
+    margin: 2rem;
+    width: 40%;
+    padding: 0.6rem;
+    border-radius: 1rem;
+    background: var(--color-footer);
+    color: var(--color-bg);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: color linear 0.5s;
+}
+
+.port__contact-form button:hover {
+    background: var(--gradient-bg);
+    color: black;
+    font-weight: 800;
+    border: solid 1px black;
+}
+
+.port__contact-form button:active {
+    background: var(--color-footer);
+    color: var(--color-bg);
+}
+
+/* Socials */
+.port__socials-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.port__socials-icons a {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 30px;
+    border-radius: 50%;
+    line-height: 75px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.port__socials-icons a .fab {
+    font-size: 30px;
+    position: relative;
+    z-index: 10;
+    transition: color 0.5s;
+}
+
+.port__socials-icons a::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(-45deg, #9381FF, #FF69B4);
+    position: absolute;
+    top: -100px;
+    transition: 0.5s;
+}
+
+.port__socials-icons a:hover::after {
+    top: 0;
+}
+
+.port__socials-icons a:hover .fab {
+    color: #FFF;
+}
+
+.port__socials-icons a:hover {
+    transform: translateY(-10px);
+}

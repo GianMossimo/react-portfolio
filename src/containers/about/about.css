@@ -1,0 +1,60 @@
+.port__about-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.port__about-container h1 {
+    display: flex;
+    font-family: var(--font-two);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.port__about-container-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 3rem;
+    width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .port__about-container {
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    
+    .port__about-container {
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    
+    .port__about-container {
+        margin-top: 1rem;
+    }
+
+    .port__about-container h1 {
+        font-size: 2rem;
+    }
+
+    .port__about-container-text {
+        line-height: 2.5rem;
+        font-size: 0.7rem;
+    }
+
+}

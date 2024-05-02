@@ -1,0 +1,172 @@
+#projects h2,
+#projects h3 {
+    font-family: var(--font-two);
+}
+
+#projects p {
+    font-family: var(--font-family);
+    line-height: 1.6rem;
+}
+
+#projects {
+    margin-top: -150px;
+    padding: 10rem 0;
+}
+
+#projects .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+#projects .item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#projects .item .left {
+    flex: 1;
+}
+
+#projects .item .right {
+    flex: 1;
+    margin-left: -9.375rem;
+    background-color: var(--color-bg);
+    padding: 2rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+#projects .item:nth-child(even) .right {
+    margin-left: 0;
+}
+
+#projects .item:nth-child(even) .left {
+    margin-left: -9.375rem;
+}
+
+#projects .item .left .img {
+    height: 24rem;
+    width: 24rem;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+#projects .item .left .img::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#projects .item .left .img img {
+    object-fit: cover;
+    transition: 0.3s ease transform;
+}
+
+#projects .item:hover .left .img img {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+#projects .item .right .project-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#projects .item .right .project-subtitle {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+#projects .item .right .project-desc {
+    margin-bottom: 3rem;
+}
+
+/* Buttons */
+#projects .item .right .buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#projects .item .right .buttons .primary-btn {
+    display: flex;
+}
+
+#projects .item .right .buttons .primary-btn .fab {
+    height: 2.5rem;
+    transition: all linear 0.3s;
+}
+
+/* Hover Effect */
+#projects .item .right .buttons .primary-btn .fab:hover {
+    transform: translateY(-5px);
+}
+
+#projects .item .right .buttons .secondary-btn {
+    font-family: var(--font-family);
+    padding: 2rem;
+    transition: all linear 0.3s;
+}
+
+#projects .item .right .buttons .secondary-btn:hover {
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 770px) {
+    
+    #projects .item {
+        flex-direction: column;
+    }
+
+    #projects .item .left {
+        width: 50%;
+    }
+
+    #projects .item .right {
+        width: 70%;
+        margin-left: 1rem;
+        margin-top: -150px;
+    }
+
+    #projects .item:nth-child(even) {
+        flex-direction: column;
+    }
+
+    #projects .item:nth-child(even) .left {
+        margin-left: 0;
+    }
+
+    #projects .item:hover .left .img img {
+        transform: scale(1);
+        z-index: 1;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    
+    #projects .item {
+        flex-direction: column;
+    }
+
+    #projects .item .left {
+        width: 89%;
+    }
+
+    #projects .item .right {
+        width: 80%;
+        margin-left: 0rem;
+        margin-top: -120px;
+    }
+
+}
