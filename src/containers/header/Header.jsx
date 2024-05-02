@@ -10,7 +10,7 @@ const Header = () => {
     <div className='port__header'>
       <div className='port__header-box'>
         <div className='port__header-box_content'>
-          <img src={profile} />
+          <img src={profile} alt='Professional Photo' />
           <div className='port__header-box_button'>
             <div className='port__header-box_button-content'>
               <button><a href='#footer'>Contact Me</a></button>
