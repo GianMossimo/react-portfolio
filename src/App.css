@@ -15,21 +15,6 @@ a {
     text-decoration: none;
 }
 
-.gradient__text {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.section__padding {
-    padding: 4rem 6rem;
-}
-
-.section__margin {
-    margin: 4rem 6rem;
-}
-
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -55,28 +40,4 @@ a {
         -webkit-transform: scale(1);
             transform: scale(1);
     }
-}
-
-@media screen and (max-width: 700px) {
-    
-    .section__padding {
-        padding: 4rem;
-    }
-    
-    .section__margin {
-        margin: 4rem;
-    }
-
-}
-
-@media screen and (max-width: 550px) {
-
-    .section__padding {
-        padding: 4rem 2rem;
-    }
-    
-    .section__margin {
-        margin: 4rem 2rem;
-    }
-    
 }
