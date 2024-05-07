@@ -220,33 +220,29 @@
     font-size: 5rem;
 }
 
-.port__header-description_container h3 {
-    font-weight: 800;
-    font-size: 2rem;
-}
-
 .port__header-description_container h2 {
     font-weight: 800;
     font-size: 3rem;
 }
 
+.port__header-description_container h3 {
+    font-weight: 800;
+    font-size: 2rem;
+    background: transparent;
+}
+
+.port__header-description_container h3 span {
+    background: var(--gradient-bg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .port__header-description_container span {
+    font-weight: 900;
     font-size: 3.1rem;
+    color: var(--gradient-bg);
 }
 
-/* Span Animation */
-.port__header-description_container span {
-    transform: translate(-50%, -50%);
-}
-
-.port__header-description_container span:nth-child(1) {
-    color: transparent;
-    -webkit-text-stroke: 2px #000;
-}
-
-.port__header-description_container span:nth-child(2) {
-    color: #000;
-}
 
 @media screen and (max-width: 1120px) {
     
