@@ -234,6 +234,7 @@
 .port__header-description_container h3 span {
     background: var(--gradient-bg);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
