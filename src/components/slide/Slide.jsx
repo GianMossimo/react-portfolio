@@ -35,6 +35,8 @@ const Slide = () => {
                 </div>
 
                 <div className="port__carousel-box">
+                  <h1>Walkthrough Project</h1>
+                  <h2>Case Study Page Incoming</h2>
                   <div className='port__carousel-box_btn'>
                     <a href='https://gpt3-project-gs.netlify.app/' target='_blank' rel="noreferrer"><button>Learn More</button></a>
                   </div>
