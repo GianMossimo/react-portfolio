@@ -21,7 +21,7 @@
     content: '';
     position: absolute;
     inset: -10px 50px;
-    background: var(--color-footer);
+    background: var(--gradient-bg);
     transition: 0.5s;
     animation: rotate 8s linear infinite;
 }

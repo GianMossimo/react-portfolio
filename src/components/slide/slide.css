@@ -1,0 +1,120 @@
+.port__carousel {
+    padding: 10rem;
+    margin-top: 2rem;
+}
+
+.port__carousel h2,
+.port__carousel p {
+    font-family: var(--font-family);
+}
+
+.port__carousel h1 {
+    font-family: var(--font-two);
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.port__carousel-box {
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    background-image: url('../../assets/gpt3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.port__carousel-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+}
+
+.port__carousel-box-2 h2,
+.port__carousel-box-2 p {
+    margin: 1rem;
+}
+
+.port__carousel-box_btn {
+    height: 170%;
+    display: flex;
+    align-items: center;
+}
+
+.port__carousel-box_btn button {
+    font-family: var(--font-two);
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 1rem;
+    background: var(--color-bg);
+    color: var(--color-footer);
+    font-weight: 600;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all ease-in-out 0.5s;
+}
+
+.port__carousel-box_btn button:hover {
+    background: var(--gradient-bg);
+    color: black;
+    border: solid 1px black;
+}
+
+.slick-slide div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide img {
+    display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+    
+    .port__carousel {
+        padding: 4rem;
+        margin-top: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    
+    .port__carousel h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .port__carousel h1 {
+        font-size: 2rem;
+    }
+
+    .port__carousel {
+        padding: 2rem;
+        margin-top: 4rem;
+    }
+
+}
