@@ -2,7 +2,6 @@ import React from 'react';
 import './portfolio.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
-import gpt3 from '../../assets/gpt3.png';
 
 const Portfolio = () => {
   return (
