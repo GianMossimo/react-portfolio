@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Navbar } from '../../components';
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
