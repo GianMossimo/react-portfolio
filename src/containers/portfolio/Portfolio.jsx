@@ -5,7 +5,7 @@ import { faHtml5, faCss3Alt, faJs, faReact } from '@fortawesome/free-brands-svg-
 
 const Portfolio = () => {
   return (
-    <div className='port__portfolio-container' id='portfolio' >
+    <div className='port__portfolio-container' id='lang' >
       <h1>My Language Stack</h1>
 
       <div className='port__portfolio-container_icons'>
