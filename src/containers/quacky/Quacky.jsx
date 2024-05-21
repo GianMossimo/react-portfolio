@@ -13,7 +13,6 @@ import quacky from '../../assets/quacky.png';
 const Quacky = () => {
     return (
         <div className='port__quacky'>
-            <Navbar />
             <div className='port__quacky-container'>
                 <h1>Quacky Benefits Case Study</h1>
                 <div className='port__quacky-container_links'>

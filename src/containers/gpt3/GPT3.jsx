@@ -13,7 +13,6 @@ import gpt3 from '../../assets/gpt3.png';
 const GPT3 = () => {
     return (
         <div className='port__quacky'>
-            <Navbar />
             <div className='port__quacky-container'>
                 <h1>GPT3 Case Study (Walkthrough Project)</h1>
                 <div className='port__quacky-container_links'>
