@@ -13,12 +13,12 @@ const Slide = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        initialSlide: 2
+        initialSlide: 1
     };
     
     return (
         <div className='port__carousel'>
-            <h1>Projects I've Worked On</h1>
+            <h1 id='portfolio'>Projects I've Worked On</h1>
 
             <Slider {...settings}>
                 
@@ -28,17 +28,15 @@ const Slide = () => {
                   <p>Macros 4 Free will be a free web app aimed at bodybuilers, both men and women, to help them reach their dietary goals. Macros 4 Free will calculate their BMR and TDEE (total calories burnt per day) and return calorie and macronutrient goals based on their goals of being in a surplus or deficit. I will utilize this website to aim at gaining affiliate codes with fashion and/or supplement companies to add a storefront to the page as well, along with a code to give users discounts on items.</p>
                 </div>
 
-                <div className="port__carousel-box-2">
-                  <h1>Voluntary Benefits Website</h1>
-                  <h2>Coming soon...</h2>
-                  <p>This voluntary benefits website is a call to my first line of work, which was B2B insurance sales. The goal of this website is to create an attractive and easily navigated website that explains the purpose of each insurance policy, and why that specific policy has a place and purpose in your life.</p>
+                <div className="port__carousel-box-3">
+                  <div className='port__carousel-box_btn-3'>
+                    <a href='quacky' target='_blank' rel="noreferrer"><button>Learn More</button></a>
+                  </div>
                 </div>
 
                 <div className="port__carousel-box">
-                  <h1>Walkthrough Project</h1>
-                  <h2>Case Study Page Incoming</h2>
                   <div className='port__carousel-box_btn'>
-                    <a href='https://gpt3-project-gs.netlify.app/' target='_blank' rel="noreferrer"><button>Learn More</button></a>
+                    <a href='gpt3' target='_blank' rel="noreferrer"><button>Learn More</button></a>
                   </div>
                 </div>
 

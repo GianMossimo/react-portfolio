@@ -33,7 +33,8 @@
     color: #9381FF;
 }
 
-.port__carousel-box-2 {
+.port__carousel-box-2,
+.port__carousel-box-3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,12 +43,13 @@
     height: 350px;
     border-radius: 10px;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
-    overflow-y: scroll;
 }
 
-.port__carousel-box-2 h2,
-.port__carousel-box-2 p {
-    margin: 1rem;
+.port__carousel-box-3 {
+    background-image: url(../../assets/quacky.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .port__carousel-box_btn {
@@ -56,15 +58,19 @@
     align-items: center;
 }
 
-.port__carousel-box_btn button {
+.port__carousel-box_btn button,
+.port__carousel-box_btn-3 button {
     font-family: var(--font-two);
+    font-weight: 600;
+    font-size: 0.9rem;
+
     width: 100%;
     padding: 0.7rem;
+    margin-top: 12rem;
+
     border-radius: 1rem;
     background: var(--color-bg);
     color: var(--color-footer);
-    font-weight: 600;
-    font-size: 0.9rem;
     border: none;
     outline: none;
     cursor: pointer;
@@ -74,7 +80,15 @@
     transition: all ease-in-out 0.5s;
 }
 
-.port__carousel-box_btn button:hover {
+.port__carousel-box_btn-3 button {
+    margin-top: 15rem;
+
+    background: #000;
+    color: var(--color-bg);
+}
+
+.port__carousel-box_btn button:hover,
+.port__carousel-box_btn-3 button:hover {
     background: var(--gradient-bg);
     color: black;
     border: solid 1px black;
