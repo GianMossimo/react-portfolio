@@ -105,6 +105,10 @@
     align-items: center;
 }
 
+.overflow-content {
+    overflow-y: scroll;
+}
+
 .slick-slide img {
     display: flex;
 }

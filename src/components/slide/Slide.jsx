@@ -22,7 +22,7 @@ const Slide = () => {
 
             <Slider {...settings}>
                 
-                <div className="port__carousel-box-2">
+                <div className="port__carousel-box-2 overflow-content">
                   <h1>Macros 4 Free</h1>
                   <h2>Coming soon...</h2>
                   <p>Macros 4 Free will be a free web app aimed at bodybuilers, both men and women, to help them reach their dietary goals. Macros 4 Free will calculate their BMR and TDEE (total calories burnt per day) and return calorie and macronutrient goals based on their goals of being in a surplus or deficit. I will utilize this website to aim at gaining affiliate codes with fashion and/or supplement companies to add a storefront to the page as well, along with a code to give users discounts on items.</p>
@@ -40,7 +40,7 @@ const Slide = () => {
                   </div>
                 </div>
 
-                <div className="port__carousel-box-2">
+                <div className="port__carousel-box-2 overflow-content">
                   <h1>Restaurant Storefront</h1>
                   <h2>Coming soon...</h2>
                   <p>I love ramen, and I love sushi. So I will be creating a modern and sleek website for a restaurant that specializes in these two dishes.</p>
