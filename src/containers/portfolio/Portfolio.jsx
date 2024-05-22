@@ -9,10 +9,10 @@ const Portfolio = () => {
       <h1>My Language Stack</h1>
 
       <div className='port__portfolio-container_icons'>
-        <a href='#portfolio' title='HTML5'><FontAwesomeIcon className='fab' icon={faHtml5} /></a>
-        <a href='#portfolio' title='CSS'><FontAwesomeIcon className='fab' icon={faCss3Alt} /></a>
-        <a href='#portfolio' title='JavaScript'><FontAwesomeIcon className='fab' icon={faJs} /></a>
-        <a href='#portfolio' title='React'><FontAwesomeIcon className='fab' icon={faReact} /></a>
+        <a href='#lang' title='HTML5'><FontAwesomeIcon className='fab' icon={faHtml5} /></a>
+        <a href='#lang' title='CSS'><FontAwesomeIcon className='fab' icon={faCss3Alt} /></a>
+        <a href='#lang' title='JavaScript'><FontAwesomeIcon className='fab' icon={faJs} /></a>
+        <a href='#lang' title='React'><FontAwesomeIcon className='fab' icon={faReact} /></a>
       </div>
     </div>
   )
