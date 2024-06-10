@@ -13,7 +13,7 @@ const Slide = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        initialSlide: 1
+        initialSlide: 4
     };
     
     return (
@@ -22,28 +22,28 @@ const Slide = () => {
 
             <Slider {...settings}>
                 
-                <div className="port__carousel-box-2 overflow-content">
-                  <h1>Macros 4 Free</h1>
-                  <h2>Coming soon...</h2>
-                  <p>Macros 4 Free will be a free web app aimed at bodybuilers, both men and women, to help them reach their dietary goals. Macros 4 Free will calculate their BMR and TDEE (total calories burnt per day) and return calorie and macronutrient goals based on their goals of being in a surplus or deficit. I will utilize this website to aim at gaining affiliate codes with fashion and/or supplement companies to add a storefront to the page as well, along with a code to give users discounts on items.</p>
+                <div className="port__carousel-box-4">
+                  <div className='port__carousel-box_btn-4'>
+                    <a href='https://eastern-electrical.com/' target='_blank' rel="noreferrer"><button>Live Preview</button></a>
+                  </div>
                 </div>
 
                 <div className="port__carousel-box-3">
                   <div className='port__carousel-box_btn-3'>
-                    <a href='quacky' target='_blank' rel="noreferrer"><button>Learn More</button></a>
-                  </div>
-                </div>
-
-                <div className="port__carousel-box">
-                  <div className='port__carousel-box_btn'>
-                    <a href='gpt3' target='_blank' rel="noreferrer"><button>Learn More</button></a>
+                    <a href='https://quackybenefits.netlify.app/' target='_blank' rel="noreferrer"><button>Live Preview</button></a>
                   </div>
                 </div>
 
                 <div className="port__carousel-box-2 overflow-content">
-                  <h1>Restaurant Storefront</h1>
+                  <h1>Macro Hero</h1>
                   <h2>Coming soon...</h2>
-                  <p>I love ramen, and I love sushi. So I will be creating a modern and sleek website for a restaurant that specializes in these two dishes.</p>
+                  <p>I have a passion for science based bodybuilding and athletic performance, and nutrition is a key factor in both. Macro Hero will be a web app (and future phone app) that will aim to provide accurate calorie and macro-nutrient guidelines to athletes of all sports.</p>
+                </div>
+
+                <div className="port__carousel-box-2 overflow-content">
+                  <h1>Google Gemini App for Teachers</h1>
+                  <h2>Coming soon...</h2>
+                  <p>Me and my teammate will be integrating the Gemini API into a web app that will provide services to teachers to lighten their workload and allow them to focus on the classroom. It will aim to create and organize lesson plans, provide guidelines for accommodations for SPED students, and aid in the process of writing IEP's.</p>
                 </div>
 
             </Slider>
